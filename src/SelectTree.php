@@ -27,7 +27,7 @@ class SelectTree extends Field implements HasAffixActions
     use CanBeSearchable;
     use HasActions;
     use HasAffixes;
-    use HasPivotData;
+   // use HasPivotData;
     use HasPlaceholder;
 
     protected string $view = 'select-tree::select-tree';
